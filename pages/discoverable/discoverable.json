@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "synthesize": "/components/synthesize/synthesize",
+    "recmmendSwiper": "/components/recmmend_swiper/recmmend_swiper",
+    "typepage": "/components/typepage/typepage",
+    "typepageNew": "/components/newtypePage/newtypePage"
+  },
+  "navigationBarTitleText": "发现"
+}

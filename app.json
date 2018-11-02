@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/content/content",
+    "pages/discoverable/discoverable",
+    "pages/sort/sort",
+    "pages/find/find",
+    "pages/collect_deatil/collect_deatil",
+    "pages/mine/mine",
+    "pages/history/history",
+    "pages/erweima/erweima",
+    "pages/subscription_edit/subscription_edit",
+    "pages/public_mark_share/public_mark_share",
+    "pages/test/01/01",
+    "pages/discoverable_edit/discoverable_edit",
+    "pages/collect_index/collect_index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "药百川",
+    "backgroundTextStyle": "light",
+    "onReachBottomDistance": "60px"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#4284f7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/images/tabBar/info_ed.png",
+        "iconPath": "/images/tabBar/info.png",
+        "pagePath": "pages/index/index",
+        "text": "订阅"
+      },
+      {
+        "selectedIconPath": "/images/tabBar/discovery.png",
+        "iconPath": "/images/tabBar/discover.png",
+        "pagePath": "pages/discoverable/discoverable",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "/images/tabBar/mine.png",
+        "iconPath": "/images/tabBar/me.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

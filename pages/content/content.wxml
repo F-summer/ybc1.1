@@ -1,0 +1,25 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+
+<block wx:if="{{news_url}}">
+  <web-view src="{{news_url}}"></web-view>
+</block>
+<block wx:else>
+  <view class='title'>{{news_title}}</view>
+  <view class='account-info'>
+    <view class='account-name'><image class='accountImg' src='{{logo}}'></image>{{name}}</view>
+    <view class='date'>{{update_time}}</view>
+  </view>
+  <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+</block>
+
+<view class='bottom'>
+  <view class='bottom-item' bindtap='collectFun' data-id="{{articleId}}">
+    <image src="{{isHeart?'/images/hearted.png':'/images/heart.png'}}"></image> 收藏
+  </view>
+  <!-- <view class='bottom-item' bindtap='goodFun'>
+    <image src="{{good?'/images/gooded.png':'/images/good.png' }}"></image> 点赞 150</view> -->
+  <button class='btn bottom-item' hover-class='none' data-title='{{news_title}}' data-img='{{thumb_url}}' data-id='{{articleId}}' open-type='share'>
+    <image src='/images/share.png'></image>分享</button>
+</view> 
+<addCollect showAll="{{showAll}}" id="addCollect" sendId="{{sendId}}" bind:myevent="successHeart"></addCollect>

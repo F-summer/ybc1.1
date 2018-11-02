@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "addCollect": "/components/collect_add/collect_add"
+  }
+}

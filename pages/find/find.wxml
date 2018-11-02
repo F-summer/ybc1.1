@@ -1,0 +1,4 @@
+<!--client/pages/1_0/find/find.wxml-->
+<form bindsubmit="testSubmit" report-submit='true' >
+  <button form-type="submit" type="default" size="mini">提交</button>
+</form>

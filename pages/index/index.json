@@ -1,0 +1,13 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#4284f7",
+  "navigationBarTextStyle": "write",
+  "backgroundTextStyle": "write",
+  "backgroundColor": "#f4f4f4",
+  "usingComponents": {
+    "component-creator": "/components/creator/creator",
+    "addCollect": "/components/collect_add/collect_add",
+    "loading":"/components/loading/loading",
+    "subscriptionEdit":"/components/subscription_edit//subscription_edit"
+  }
+}

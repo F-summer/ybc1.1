@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#4284f7",
+  "navigationBarTextStyle": "write",
+  "usingComponents": {
+    "addCollect": "/components/collect_add/collect_add"
+  }
+}
